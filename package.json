@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "esy-cmake": "prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1",
-    "esy-nasm": "prometheansacrifice/esy-nasm#6240bdbb164476558d3738812fbbe48f66cc904a",
+    "esy-nasm": "revery-ui/esy-nasm#64a802b",
     "@esy-cross/ninja-build": "^1.8.2001"
   }
 }
