@@ -15,6 +15,14 @@
       "DYLD_LIBRARY_PATH": {
         "scope": "global",
         "val": "/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/:#{self.lib}:$DYLD_LIBRARY_PATH"
+      },
+      "JPEG_INCLUDE_PATH": {
+          "val": "#{self.install / 'include' }",
+          "scope": "global"
+      },
+      "JPEG_LIB_PATH": {
+          "val": "#{self.lib}",
+          "scope": "global"
       }
     },
     "build": "#{os == 'windows' ? 'echo esy-libjpeg-turbo currently works on on Linux/OSX': 'bash ./esy-build.sh'}"
