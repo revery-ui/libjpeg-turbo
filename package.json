@@ -16,7 +16,7 @@
         "scope": "global",
         "val": "/System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/:#{self.lib}:$DYLD_LIBRARY_PATH"
       },
-      "JPEG_INCLUE_PATH": {
+      "JPEG_INCLUDE_PATH": {
           "val": "#{self.install / 'include' }",
           "scope": "global"
       },
