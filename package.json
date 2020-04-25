@@ -28,7 +28,7 @@
     "build": "#{os == 'windows' ? 'echo esy-libjpeg-turbo currently works on on Linux/OSX': 'bash ./esy-build.sh'}"
   },
   "dependencies": {
-    "esy-cmake": "prometheansacrifice/esy-cmake#2a47392def755074afbf63eb794b94135476b1d1",
+    "@revery/esy-cmake": "^0.3.5001",
     "esy-nasm": "revery-ui/esy-nasm#64a802b",
     "@esy-cross/ninja-build": "^1.8.2001"
   }
